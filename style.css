@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #212427
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.caixa {
+    border-radius: 5px;
+}
+
+.pai {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background-color: antiquewhite;
+    border: solid 2px #212427;
+
+    display: flex;
+    justify-content: space-between; /*Definindo para todos os elementos possuirem um espaçamento entre cada um*/
+    align-items: flex-start;
+    flex-direction: column; /*Definindo para todos os elementos ficarem em coluna */
+}
+
+.filho {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/*Modificando a Ordem dos elementos e a posição no qual cada um aparecerá */
+.cor1 {
+    background-color: #ED145B;
+    align-self: flex-start; /*Posição que aparecerá na tela*/
+    order: 1; /*Ordem*/
+}
+
+.cor2 {
+    background-color: #63B1BC;
+    align-self: flex-end; /*Posição que aparecerá na tela*/
+    order: 3; /*Ordem*/
+}
+
+.cor3 {
+    background-color: #EFB661;
+    align-self: center; /*Posição que aparecerá na tela*/
+    order: 2;/*Ordem*/
+}
+
+.instrucoes {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: antiquewhite;
+    height: 130px;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
