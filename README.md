@@ -6,4 +6,5 @@ Modificações feitas para cumprir o desafio:
 - Em cada classe de cada circulo foi definido a ordem na qual estão posicionados (para se assemelhar ao da imagem do desafio) além de alinhar onde estarão posicionados de acordo com seu número e cor.
 
 Resultado final:
-![resultado-final](https://github.com/user-attachments/assets/30164718-fc9d-4523-addc-e635175188d6)
+![image](https://github.com/user-attachments/assets/c7f956c5-cb92-46dc-9606-e08c556cf46d)
+
