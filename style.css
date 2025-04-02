@@ -21,9 +21,9 @@ h1 {
     border: solid 2px #212427;
 
     display: flex;
-    justify-content: space-between; /*Definindo para todos os elementos possuirem um espaçamento entre cada um*/
+    justify-content: flex-start; 
     align-items: flex-start;
-    flex-direction: column; /*Definindo para todos os elementos ficarem em coluna */
+    flex-direction: row; 
 }
 
 .filho {
